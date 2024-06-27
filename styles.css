@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+header {
+  background-color: #ccffb6f3;
+  box-shadow:50%;(lightslategray);
+  position:sticky;
+  width:auto;
+  padding:flex;
+  display:start;
+}
+
+
+.hero{
+  background-color:whitesmoke;
+  font-family:'Brush Scipt MT',cursive;
+      color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  text-align: center;
+}
+.p{
+  color: rgb(237, 13, 13);
+
+}
+
+.service {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center; /* Align items vertically center */
+  padding: 20px; /* Add some padding around the container */
+  
+}
+
+
+.card {
+  width: 310px;
+  border: none;
+  border-radius: 15px;
+}
+
+.justify-content-around div {
+  border: none;
+  border-radius: 20px;
+  background: #f3f4f6;
+  padding: 5px 20px 5px;
+  color: #8d9297;
+}
+
+.justify-content-around span {
+  font-size: 12px;
+}
+
+.justify-content-around div:hover {
+  background: #545ebd;
+  color: #fff;
+  cursor: pointer;
+}
+
+.justify-content-around div:nth-child(1) {
+  background: #545ebd;
+  color: #fff;
+}
+
+span.mt-0 {
+  color: #8d9297;
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 15px;
+}
+.mpesa {
+  background-color: green !important;
+}
+
+img {
+  border-radius: 15px;
+}
+
+nav {
+  background-color:pink; /* add a background color to the nav */
+   padding: 8px ; /* add some padding to the nav */
+  text-align:left; /* center the nav items */
+  color: black;
+}
+
+nav ul {
+  list-style: none; /* remove the bullet points */
+  margin: 0; /* remove the margin */
+  padding: 0; /* remove the padding */
+  display: flex; /* make the list items display inline */
+  justify-content:flex-end; /* space out the list items evenly */
+gap:20px;
+}
+
+nav li {
+  margin-right: 20px; /* add some space between list items */
+}
+
+nav a {
+  color: black; /* change the text color to white */
+  text-decoration: none; /* remove the underline */
+  transition: color 0.2s ease; /* add a transition effect */
+}
+
+nav a:hover {
+  color: black; /* change the text color on hover */
+}
+
+nav a.active {
+  color:black; /* change the text color for the active link */
+  font-weight: bold; /* make the active link bold */
+}
+.book-now:{
+  background-color: #c53070;
+}
+.logo {
+  width: 1400px;
+  height:600px;
+  box-sizing: border-box;
+  background-image:url(img/002.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+  text-align:justify;
+  color: black;
+}
+.logo h1{
+  font-size:70px;
+  color:#222;
+
+}
+.logo p{
+  margin: 10px 0 30px;
+  color:#333;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color:#fff;
+  background-image:-o-linear-gradient(45deg,#df4881,#c430d7);
+  font-size:14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  transition: 0.5s;
+}
+.logo .btn{
+  padding:15px 80px;
+
+}
+.haircut{
+  width: 500px;
+  height:250px;
+  box-sizing: border-box;
+  background-image:url(img/haircut.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+}
+.makeup{
+  width: 500px;
+  height:250px;
+  box-sizing: border-box;
+  background-image:url(img/makeup.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+}
+.Waxing{
+  width: 500px;
+  height:250px;
+  box-sizing: border-box;
+  background-image:url(img/wax.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+}
+.Nail{
+  width: 500px;
+  height:250px;
+  box-sizing: border-box;
+  background-image:url(img/nail.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+}
+.facials{
+  width: 500px;
+  height:250px;
+  box-sizing: border-box;
+  background-image:url(img/facial.jpg);
+  background: size 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-color:white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+main h1 {
+  color: pink
+  text-align:center;
+}
+
+main h2 {
+  color: #333;
+  margin-top: 2rem;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 1rem;
+}
+
+main ul li a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
