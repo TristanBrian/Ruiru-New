@@ -1,0 +1,12 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Description of your project",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
